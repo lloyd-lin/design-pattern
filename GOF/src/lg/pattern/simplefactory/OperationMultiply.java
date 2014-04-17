@@ -1,4 +1,4 @@
-package lg.patten.simplefactory;
+package lg.pattern.simplefactory;
 
 import java.math.BigDecimal;
 
