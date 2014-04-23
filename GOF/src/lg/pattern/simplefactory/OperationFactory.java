@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigDecimal;
 
 public class OperationFactory {
+	enum OperationSymbol {Add,Substract,Multiply,Divide};
 	
 	public Operation getOperation (String op) {		
 		switch (switchOperation(op)){
